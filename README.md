@@ -37,5 +37,4 @@ Abaixo encontra-se a evidência do Prisma Studio comprovando que as tabelas fora
 
 
 
-
 * **Projeto — Servico (`utiliza`):** Um **Projeto** pode utilizar **nenhum ou vários** `Servico` da construtora para ser executado, e um mesmo **Servico** pode estar presente em **nenhum ou vários** `Projeto` distintos. *(Cardinalidade: N:M)*
