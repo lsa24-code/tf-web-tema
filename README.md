@@ -28,4 +28,14 @@
 ### Relacionamentos e Cardinalidades
 
 * **Projeto — FotoProjeto (`possui`):** Um **Projeto** pode possuir **nenhuma ou várias** `FotoProjeto` registradas para acompanhar o seu progresso, enquanto cada **FotoProjeto** pertence obrigatoriamente a um **único** `Projeto`. *(Cardinalidade: 1:N)*
+
+## 5. Evidência funcional
+
+Abaixo encontra-se a evidência do Prisma Studio comprovando que as tabelas foram criadas e populadas com sucesso pelo seed:
+
+<img width="1919" height="728" alt="prisma-studio" src="https://github.com/user-attachments/assets/efc90d58-2460-4a91-adcf-9225d674e10a" />
+
+
+
+
 * **Projeto — Servico (`utiliza`):** Um **Projeto** pode utilizar **nenhum ou vários** `Servico` da construtora para ser executado, e um mesmo **Servico** pode estar presente em **nenhum ou vários** `Projeto` distintos. *(Cardinalidade: N:M)*
